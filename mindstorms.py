@@ -33,8 +33,7 @@ def draw_triangle():
     jack.left(135)
     jack.forward(150*math.sqrt(2))
     
-    window.exitonclick()
-    
 draw_square()
 draw_circle()
 draw_triangle()
+window.exitonclick()
